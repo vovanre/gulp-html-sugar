@@ -1,0 +1,41 @@
+{
+  "name": "gulp-html-sugar",
+  "version": "0.0.1",
+  "description": "Extendable html syntax sugar plugin",
+  "author": {
+    "name": "vovanre",
+    "email": "just.vovanre@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vovanre/gulp-html-sugar.git"
+  },
+  "readmeFilename": "README.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "gulp",
+    "html",
+    "syntax",
+    "sugar"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bufferstreams": "^1.1.1",
+    "cheerio": "^0.22.0",
+    "gulp-util": "^2.2.14",
+    "through2": "^0.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "event-stream": "^3.3.4",
+    "mocha": "^1.18.0",
+    "mockery": "^1.4.0",
+    "vinyl": "^0.2.3"
+  },
+  "files": [
+    "index.js"
+  ]
+}
